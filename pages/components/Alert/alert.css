@@ -1,0 +1,47 @@
+.alert-display-wrapper{
+    flex-direction: column;
+    padding: 2.5rem;
+  
+}
+
+alert{
+    background-color:var(--dark-blue-purple1);
+    padding:0.7rem;
+    border-radius: 0.5rem;
+    color: var(--shine-green-dark);
+}
+alert.mg-1rem{
+    margin-bottom: 1rem;
+}
+
+.alert{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+a.link-text{
+    color: var(--shine-green-dark);
+    border-bottom: 1px solid var(--shine-green-dark);
+    padding-left: 0.2rem;
+}
+
+alert[variant="primary"]{
+    padding:1rem;
+}
+
+alert[variant="success"]{
+    color: var(--shine-green-dark);
+}
+
+alert[variant="neutral"]{
+    color: var(--greyDark);
+}
+
+alert[variant="warning"]{
+    color: var(--gold1);
+}
+
+alert[variant="danger"]{
+    color: var(--dark-red);
+}
