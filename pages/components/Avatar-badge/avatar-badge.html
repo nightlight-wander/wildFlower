@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avatar-Badge</title>
+    <link rel="stylesheet" href="../comp-imports.css">
+    <link rel="stylesheet" href="avatar-badge.css">
+
+    <!-- highlight.js imports -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+    <link rel="stylesheet" href="../../../dracula.css">
+
+
+</head>
+
+<body>
+    <div class="logo-head docs-head">
+        <a href="/index.html"><img class="logo-header" src="../../../assets/phoenix-logo-3-removebg-preview.png" alt="logo"></a>
+        <a href="/index.html">
+            <h1 class="lib-name">pixie.WebGears</h1>
+        </a>
+    </div>
+    <nav class="library-nav">
+        <h1 class="nav-h1">Getting Started</h1>
+        <div class="usage comp-link"><a href="/pages/docs.html">Usage</a></div>
+        <h1 class="nav-h1">Components</h1>
+        <ul class="components-box">
+            <li class="comp-link"><a href="avatar-badge.html">Avatar-Badge</a></li>
+            <li class="comp-link"><a href="#">Alert</a></li>
+            <li class="comp-link"><a href="#">Button</a></li>
+            <li class="comp-link"><a href="#">Cards</a></li>
+            <li class="comp-link"><a href="#">Image-Input</a></li>
+            <li class="comp-link"><a href="#">Chips</a></li>
+            <li class="comp-link"><a href="#">Tabs</a></li>
+            <li class="comp-link"><a href="#">Modal</a></li>
+        </ul>
+    </nav>
+
+    <main class="avatar-wrapper comp-box">
+        <h1 class="comp-h1">Avatar</h1>
+
+        <!-- code-display -->
+        <div class="code-wrapper">
+            <pre>
+        <code class="code language-html">
+            @import url("https://wildFlower.netlify.app/pages/components/Avatar-badge/avatar-badge.css");
+            <link rel="stylesheet" 
+            href="https://wildFlower.netlify.app/pages/components/Avatar-badge/avatar-badge.css">
+        </code>
+    </pre>
+        </div>
+
+        <!-- code-display-end -->
+
+        <p class="comp-p-large">Avatars are used to represent persons or objects.</p>
+        <p class="comp-p-small">Like images you should always provide alt text</p>
+        <h2 class="comp-h2">Examples</h2>
+        <h3 class="comp-h3">Basic Avatars</h3>
+        <p class="comp-p-small">Avatar is available in 4 different sizes.You can use image or text initials for
+            avatars.Include classes for different sizes in addition top the class <span
+                class="highlight-text">avatar</span> . <span class="highlight-text">avatar-xlg</span> 5rem <span
+                class="highlight-text">avatar-lg</span> 4rem <span class="highlight-text">avatar-s</span> 3rem <span
+                class="highlight-text">avatar-xs</span> 1.5rem </p>
+        <div class="avatar-display-wrapper comp-display">
+            <div class="avatar avatar-xlg">
+                <img class="img-round" src="../../../assets/ninja_avatar1-removebg-preview.png" alt="avatar">
+            </div>
+            <div class="avatar avatar-lg">
+                <img class="img-round" src="../../../assets//ninja_avatar1-removebg-preview.png" alt="avatar">
+            </div>
+            <div class="avatar avatar-s">
+                <img class="img-round" src="../../../assets/ninja_avatar1-removebg-preview.png" alt="avatar">
+            </div>
+            <div class="avatar avatar-xs">
+                <img class="img-round" src="../../../assets/ninja_avatar1-removebg-preview.png" alt="avatar">
+            </div>
+        </div>
+        <!-- code-display -->
+        <div class="code-wrapper">
+            <pre>
+                <code class="code language-html">
+                    <div class="avatar avatar-xlg">
+                        <img class="img-round" src="avatars/ninja_avatar1-removebg-preview.png" alt="avatar">
+                    </div>
+                    <div class="avatar avatar-lg">
+                        <img class="img-round" src="avatars/ninja_avatar1-removebg-preview.png" alt="avatar">
+                    </div>
+                    <div class="avatar avatar-s">
+                        <img class="img-round" src="avatars/ninja_avatar1-removebg-preview.png" alt="avatar">
+                    </div>
+                    <div class="avatar avatar-xs">
+                        <img class="img-round" src="avatars/ninja_avatar1-removebg-preview.png" alt="avatar">
+                    </div>
+                </code>
+            </pre>
+        </div>
+
+        <!-- code-display-end -->
+
+
+        <h3 class="comp-h3">Status badge Avatars</h3>
+        <p class="comp-p-small">Avatars can have badges to show their status as <span
+                class="highlight-text">online</span> ,
+            <span class="highlight-text">offline</span> ,
+            <span class="highlight-text">disabled</span> .
+            And their shapes can be changed by changing their class.
+        </p>
+        <div class="avatar-display-wrapper comp-display badge-container">
+            <div class="avatar avatar-xlg">
+                <img class="img-round" src="../../../assets/ninja_avatar1-removebg-preview.png" alt="avatar">
+                <span class="status-badge online"></span>
+            </div>
+            <div class="avatar avatar-lg">
+                <img class="img-round" src="../../../assets/ninja_avatar1-removebg-preview.png" alt="avatar">
+                <span class="status-badge offline"></span>
+            </div>
+            <div class="avatar avatar-xlg ">
+                <img class="img-round square" src="../../../assets/ninja_avatar1-removebg-preview.png" alt="avatar">
+            </div>
+        </div>
+
+        <!-- code-display-->
+        <div class="code-wrapper">
+            <pre>
+                <code class="code language-html">
+                    <div class="avatar avatar-xlg">
+                        <img class="img-round" src="avatars/ninja_avatar1-removebg-preview.png" alt="avatar">
+                        <span class="status-badge online"></span>
+                    </div>
+                    <div class="avatar avatar-lg">
+                        <img class="img-round" src="avatars/ninja_avatar1-removebg-preview.png" alt="avatar">
+                        <span class="status-badge offline"></span>
+                    </div>
+                    <div class="avatar avatar-xlg ">
+                        <img class="img-round square" src="avatars/ninja_avatar1-removebg-preview.png" alt="avatar">
+                    </div>
+                </code>
+            </pre>
+        </div>
+        <!-- code-display-end -->
+    </main>
+    <script src="../../highlight-custom.js"></script>
+</body>
+
+</html>

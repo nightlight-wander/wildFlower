@@ -1,0 +1,65 @@
+/* shape-avatars */
+.img-round{
+    width: 100%;
+    border-radius: 50%;
+    background-color: var(--sky-blue);
+}
+
+.avatar .square{
+    border-radius: 1rem;
+}
+/* shape-avatars end */
+
+.avatar-display-wrapper{
+    align-items: baseline;
+}
+
+.avatar{
+    display: inline-block;
+    padding: 1rem;
+    position: relative;
+   
+}
+
+.avatar-xlg{
+    height: 5rem;
+    width: 5rem;
+
+}
+.avatar-lg{
+    height: 4rem;
+    width: 4rem;
+
+}
+.avatar-s{
+    height: 3rem;
+    width: 3rem;
+
+}
+.avatar-xs{
+    height: 1.5rem;
+    width: 1.5rem;
+
+}
+
+.status-badge{
+    position: absolute;
+    height: 1.4rem;
+    width: 1.3rem;
+    bottom: 1.3rem;
+    right: 0.4rem;
+    border-radius:50% ;
+    border: 2px solid var(--blue-purple);
+
+}
+
+.online{
+    background-color:#00edc6;
+}
+
+.offline{
+    background-color: #8089c7;
+}
+
+
+
