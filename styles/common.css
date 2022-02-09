@@ -1,0 +1,22 @@
+.logo-header{
+    width: 9rem;
+    height: 8rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo-head{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    background-color: var(--blue-purple-up);
+    
+}
+
+.logo-head a{
+    color:var(--white);
+}
+
+

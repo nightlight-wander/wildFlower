@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+:root {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+  --primary-light: #8abdff;
+  --primary: #6d5dfc;
+  --primary-dark: #5b0eeb;
+  /* --secondary:#394fe2;
+  --secondary-light:#054ab1; */
+
+  --white: #ffffff;
+  --black: black;
+  --greyLight-1: #e4ebf5;
+  --greyLight-2: #c8d0e7;
+  --greyLight-3: #bec8e4;
+  --greyDark: #9baacf;
+
+  --blue-purple:#394fe2;
+  --blue-purple-up:#3349df;
+  --blue-up-border:#8e98d9;
+  --blue-purple-dark1:#2740e0;
+  --dark-blue-purple2:#060e3f;
+  --shine-green-dark:#15fed8;
+  --shine-green:#91f3e3;
+
+  --sky-blue:#0d93ed;
+  --green:#23ea67;
+  --dark-red:#c81e33;
+  --dark-red:#c5091f;
+  --light-red:#ec4356;
+  --dark-red:#cc061d;
+
+
+  --dull-pink:#ffaca2;
+  --dull-pink:#ebb4ae;
+
+
+  --pink1:#dbdcd7;
+	--pink2:#dddcd7;
+  --pink3:#e2c9cc;
+  --pink4:#e7627d;
+  --pink5:#b8235a;
+  --pink6:#801357;
+  --pink7:#3d1635;
+  --pink8:#1c1a27;
+
+  --gold1:#e0cb8f;
+
+
+}

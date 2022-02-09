@@ -1,0 +1,76 @@
+.nav-text{
+    font-size: 2rem;
+    color: var(--white);
+}
+.nav-wrapper ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-wrapper li{
+    padding: 0 2rem;
+}
+
+.nav-wrapper i{
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.main-header{
+    display: flex;
+    align-items: center;
+    background-color: var(--blue-purple-up);
+}
+
+.logo-main{
+    width: 12rem;
+    height: 12rem;
+    border: none;
+}
+
+.main-wrapper{
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.cta-btn{
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    white-space: nowrap;
+    word-wrap: nowrap;
+   
+}
+
+.main-text{
+    color: var(--white);
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 1rem 0;
+    max-width: 50rem;
+    margin: auto;
+}
+
+.main-start{
+    font-size: 2rem;
+    background-color: var(--blue-purple);
+    color: var(--white);
+    padding: 1rem;
+    margin-right: 1rem;
+    border-radius: 2rem;
+    border: 1.6px solid var(--shine-green);
+}
+
+.main-start:hover{
+   background-color: var(--sky-blue);
+}
+
+.main-github{
+    font-size: 2rem;
+    color: var(--white);
+    padding: 1rem;
+    margin-right: 1rem;
+    border-radius: 2rem;
+    border: 1.6px solid var(--shine-green-dark);
+}

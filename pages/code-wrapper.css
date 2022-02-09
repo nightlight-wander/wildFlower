@@ -1,0 +1,38 @@
+/* code-wrapper */
+.code-wrapper{
+    border: 2px solid var(--sky-blue);
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+   
+}
+
+.code-wrapper .hljs{
+    background-color: transparent;
+    overflow-x: auto;
+}
+
+.code-wrapper pre{
+    padding: 1rem;
+    display: flex;
+    margin: 0;
+    border: 1px var(--sky-blue);
+    padding: 0;
+}
+
+.hljs-tag .hljs-attr, .hljs-tag{
+    color: #15fed8;
+}
+
+.hljs-tag .hljs-name{
+    color: #15fed8;
+}
+
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Show position indicator in blue */
+::-webkit-scrollbar-thumb {
+    background:var(--sky-blue)
+}
