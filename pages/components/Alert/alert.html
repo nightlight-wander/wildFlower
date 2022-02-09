@@ -22,7 +22,8 @@
 
 <body>
     <div class="logo-head docs-head">
-        <a href="/index.html"><img class="logo-header" src="../../../assets/phoenix-logo-3-removebg-preview.png" alt="logo"></a>
+        <a href="/index.html"><img class="logo-header" src="../../../assets/phoenix-logo-3-removebg-preview.png"
+                alt="logo"></a>
         <a href="/index.html">
             <h1 class="lib-name">wildFlower</h1>
         </a>
@@ -46,6 +47,20 @@
     <!-- alerts main wrapper-->
     <main class="alert-wrapper comp-box">
         <h1 class="comp-h1">Alerts</h1>
+
+        <!-- code-display -->
+        <div class="code-wrapper">
+            <pre>
+               <code class="code language-html">
+               @import url("https://wildFlower.netlify.app/pages/components/Alert/alert.css");
+               <link rel="stylesheet" 
+               href="https://wildFlower.netlify.app/pages/components/Alert/alert.css">
+               </code>
+            </pre>
+        </div>
+
+        <!-- code-display-end -->
+
         <p class="comp-p-large">Alerts are used to display important messages online or as toast notifications.</p>
         <h2 class="comp-h2">Examples</h2>
         <h3 class="comp-h3">Basic alert without close button.</h3>
@@ -53,7 +68,7 @@
             Alert variants- primary alert,success alert, error alert, warning alert,danger alert.
         </p>
         <div class="alert-display-wrapper comp-display">
-            <alert class="mg-1rem"variant="primary">
+            <alert class="mg-1rem" variant="primary">
                 <div part="base" role="alert" aria-live="assesrtive" class="alert alert-primary">
                     <div part="message" class="alert-message">
                         <slot>
@@ -76,7 +91,7 @@
                             <p>You can exit the app safely now.</p>
                         </slot>
                     </div>
-                </div>   
+                </div>
             </alert>
             <alert class="mg-1rem" variant="neutral">
                 <div part="base" role="alert" aria-live="assesrtive" class="alert alert-neutarl">
@@ -93,7 +108,7 @@
                     </div>
                 </div>
             </alert>
-            <alert  class="mg-1rem" variant="warning">
+            <alert class="mg-1rem" variant="warning">
                 <div part="base" role="alert" aria-live="assesrtive" class="alert alert-warning">
                     <div part="icon" class="alert-icon">
                         <slot class="icon">
@@ -154,10 +169,11 @@
         </div>
 
         <!-- code-display-end -->
-        
+
     </main>
-     <!-- alerts main wrapper end-->
-     <script src="../../highlight-custom.js"></script>
-    
+    <!-- alerts main wrapper end-->
+    <script src="../../highlight-custom.js"></script>
+
 </body>
+
 </html>
