@@ -9,6 +9,7 @@
     background: none;
     padding: none;
     font-size: inherit;
+    cursor: pointer;
 }
 
 .btn-primary{
