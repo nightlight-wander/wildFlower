@@ -1,0 +1,106 @@
+.btn-display-wrapper{
+    margin: 1rem 0;
+    padding:2rem;
+    gap:3rem;
+}
+
+.btn{
+    border: none;
+    background: none;
+    padding: none;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+.btn-primary{
+    padding: 0.8rem 1.6rem;
+    font-size: 2rem;
+    background-color: var(--sky-blue);
+    color: var(--gold1);
+    border-radius: 1rem;
+}
+
+.btn-outline{
+    padding: 0.8rem 1.6rem;
+    font-size: 2rem;
+    border: 1px solid var(--sky-blue);
+    color: var(--gold1);
+    border-radius: 1rem;
+}
+
+.btn:hover{
+    box-shadow:0.1rem 0.1rem 0.1rem var(--gold1),-0.1rem -0.1rem 0.2rem var(--gold1);
+}
+
+.btn-grad{
+    width: 8em;
+    height: 3em;
+    border-radius: 2em;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: inherit;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    margin-left: 2rem;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    color: var(--blue-purple);
+    border: 1px solid var(--white);
+   
+
+}
+
+.btn-grad::before{
+    content: "";
+    width: 0;
+    height: 3em;
+    border-radius: 2em;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-image: linear-gradient(to right,var(--sky-blue) 0%,var(--shine-green) 100%);
+    display: block;
+    transition: .5s ease;
+    z-index: -1;
+   
+
+}
+
+.btn-grad:hover::before{
+    width: 8em;
+}
+
+.btn-grad:hover{
+    box-shadow: none;
+}
+
+.btn-grad span{
+    color: var(--sky-blue);
+    padding-right: 0.2rem;
+}
+
+
+.link-cta{
+    display: inline-block;
+    /* text-align: center; */
+    width: 14rem;
+    border: 2px solid var(--white);
+    border-radius: 0.5rem;
+    background-color: var(--white);
+    color: var(--blue-purple);
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.link-cta span{
+    vertical-align: middle;
+    padding: 0.5rem 0.8rem;
+}
+
+.link-cta:hover{
+    background-color: var(--sky-blue);
+}
