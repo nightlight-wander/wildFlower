@@ -1,14 +1,20 @@
 
-/* .content{
-    background: var(--white);
-    width: 70vw;
-    padding: 3em;
-    position: relative;
-} */
+button{
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.inputIm-display-wrapper{
+    margin: 1rem 0;
+    padding:2rem;
+    gap:3rem;
+}
+
 
 .search-bar{
     --size:35px;
-    border: 2px solid var(--tomatoOrange);
+    border: 2px solid var(--shine-green-dark);
     display: flex;
     align-items: center;
     border-radius: 5rem;
@@ -54,10 +60,91 @@
     height: calc(var(--size) );
     border-radius: 50%;
     margin-left: auto;
-    background-color: var(--tomatoOrange);
+    background-color: var(--sky-blue);
+    border: 1px solid var(--sky-blue);
     
 }
 
 .search-bar .submit-btn .search-icon{
   color:var(--pink8)
+}
+
+.input-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.input-label{
+    padding-bottom: 0.6rem;
+    outline: none;
+}
+
+.input-field{
+    padding: 0.5rem;
+    display: block;
+    width: 100%;
+    padding: 0.6rem;
+    outline: none;
+    box-sizing: inherit;
+    line-height: 1;
+    border: 1px solid var(--greyDark);
+
+}
+
+
+.tabContent{
+    padding: 2rem ;
+    width: 30rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-input,.text-label{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.text-input{
+    margin-bottom: 1.6rem;
+    border: none;
+    height: 3rem;
+}
+
+.text-label{
+    margin-bottom: 0.6rem;
+}
+
+.link-btn{
+    color: var(--shine-green-dark);
+}
+
+
+.password-wrapper{
+    justify-content: space-between;
+    font-size: 1.6rem;
+    display: flex;
+}
+
+.eye-icon{
+    position: absolute;
+    top: 72%;
+    right: 0.8rem;
+    color: var(--sky-blue);
+    cursor: pointer;
+}
+
+.img-responsive{
+    width: 100%;
+    height: auto;
 }

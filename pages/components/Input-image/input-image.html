@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../comp-imports.css">
     <link rel="stylesheet" href="input-image.css">
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <script src="https://kit.fontawesome.com/00e65d596a.js" crossorigin="anonymous"></script>
 
     <!-- highlight.js imports -->
@@ -45,7 +46,7 @@
     </nav>
 
     <!-- input-image-main wrapper-->
-    <main class="input-wrapper comp-box">
+    <main class="inputIm-wrapper comp-box">
 
         <!-- code-display -->
         <div class="code-wrapper">
@@ -84,6 +85,116 @@
             </pre>
         </div>
         <!-- code-display-end -->
+
+        <h3 class="comp-h3">Validation input</h3>
+        
+        <div class="inputIm-display-wrapper comp-display">
+            <div class="input-section">
+                <label for="email-adress" class="input-label">Email address</label>
+                <input type="email" class="input-field" placeholder="username@email.com">
+            </div>
+            <div class="input-section">
+                <label for="text" class="input-label">Some Textarea</label>
+                <textarea class="input-field input-textarea"rows="3" placeholder="place your content here"></textarea>
+            </div>
+        </div>
+
+        <!-- code-display -->
+        <div class="code-wrapper">
+            <pre>
+                <code class="code language-html">
+                    <div class="input-section">
+                        <label for="email-adress" class="input-label">Email address</label>
+                        <input type="email" class="input-field" placeholder="username@email.com">
+                    </div>
+                    <div class="input-section">
+                        <label for="text" class="input-label">Some Textarea</label>
+                        <textarea class="input-field input-textarea"rows="3" placeholder="place your content here"></textarea>
+                    </div>
+                </code>
+            </pre>
+        </div>
+        <!-- code-display-end -->
+
+
+        <h3 class="comp-h3">Login Form input</h3>
+        
+        <div class="inputIm-display-wrapper comp-display">
+            <div class="tabContent">
+                <form class="login form ">
+                    <div class="input-wrapper flex-col ">
+                        <label for="email" class="text-label ">
+                            Email<span class="req-feild">*</span>
+                        </label>
+                        <input id="email" type="email" class="text-input r">
+
+                        <label for="password" class="text-label ">
+                            Password<span class="req-feild">*</span>
+                        </label>
+                        <input id="password" type="email" class="text-input ">
+                        <span class="eye-icon material-icons material-icons-outlined">
+                            visibility</span>
+        
+                    </div>
+                    <div class="password-wrapper ">
+                        <div class="remeber-box">
+                            <input type="checkbox" name="remember-me">
+                            Remember Me
+                        </div>
+                        <div class="forget-box">
+                            <a href="#" class="link-btn">Forgot Password</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- code-display -->
+        <div class="code-wrapper">
+            <pre>
+                <code class="code language-html">
+                    <div class="tabContent">
+                        <form class="login form ">
+                            <div class="input-wrapper flex-col ">
+                                <label for="email" class="text-label ">
+                                    Email<span class="req-feild">*</span>
+                                </label>
+                                <input id="email" type="email" class="text-input r">
+        
+                                <label for="password" class="text-label ">
+                                    Password<span class="req-feild">*</span>
+                                </label>
+                                <input id="password" type="email" class="text-input ">
+                                <span class="eye-icon material-icons material-icons-outlined">
+                                    visibility</span>
+                
+                            </div>
+                            <div class="password-wrapper ">
+                                <div class="remeber-box">
+                                    <input type="checkbox" name="remember-me">
+                                    Remember Me
+                                </div>
+                                <div class="forget-box">
+                                    <a href="#" class="link-btn">Forgot Password</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </code>
+            </pre>
+        </div>
+        <!-- code-display-end -->
+
+        <h1 class="comp-h1">Image</h1>
+        <h2 class="comp-h2">Examples</h2>
+        <h3 class="comp-h3">Responsive Image</h3>
+        <p class="comp-p-small">
+            Add the "img-responsive" class to make the image grow and shrink with respect to container.
+        </p>
+
+        <div class="inputIm-display-wrapper comp-display">
+            <img loading="lazy" src="../../../assets/dji-fpv.jpg" alt="drone" class="img-responsive">
+        </div>
 
     </main>
 
