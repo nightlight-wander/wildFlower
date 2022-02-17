@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../comp-imports.css">
     <link rel="stylesheet" href="navigation.css">
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://kit.fontawesome.com/00e65d596a.js" crossorigin="anonymous"></script>
 
     <!-- highlight.js imports -->
@@ -25,7 +25,8 @@
 
 <body>
     <div class="logo-head docs-head">
-        <a href="/index.html"><img class="logo-header" src="../../../assets/phoenix-logo-3-removebg-preview.png" alt="logo"></a>
+        <a href="/index.html"><img class="logo-header" src="../../../assets/phoenix-logo-3-removebg-preview.png"
+                alt="logo"></a>
         <a href="/index.html">
             <h1 class="lib-name">wildFlower</h1>
         </a>
@@ -47,10 +48,10 @@
         </ul>
     </nav>
 
-    <main class="button-wrapper comp-box">
+    <main class="nav-wrapper comp-box">
         <h1 class="comp-h1">Navigation</h1>
 
-         <!-- code-display -->
+        <!-- code-display -->
         <div class="code-wrapper">
             <pre>
                <code class="code language-html">
@@ -63,99 +64,124 @@
 
         <!-- code-display-end -->
 
-        <p class="comp-p-large">Buttons represent actions with their states that are available to the user.</p>
+        <p class="comp-p-large">Navigation section provides access to destinations for search,login,other app
+            functionalities.</p>
         <h2 class="comp-h2">Examples</h2>
 
-        <h3 class="comp-h3">Basic buttons</h3>
-        <div class="btn-display-wrapper comp-display">
-                <button class="btn btn-primary">Primary</button>
-                <button class="btn btn-outline">Outline</button>            
-        </div>
+        <h3 class="comp-h3">Responsive Navigation with Menu</h3>
+        <div class="nav-display-wrapper comp-display">
+            <!-- header-starts -->
+            <header class="header ">
+                <div class="logo-head-comp flex-vCenter">
+                    <a href="#"><img class="logo-img-comp"
+                            src="../../../assets/phoenix-logo-3-removebg-preview.png" alt="logo"></a>
+                    <a href="#" class="logo-name-comp">LOGO</a>
+                </div>
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
 
-        <!-- code-display -->
-        <div class="code-wrapper">
-            <pre>
-                <code class="code language-html">
-                    
-                </code>
-            </pre>
-        </div>
-        <!-- code-display-end -->
+                <nav class="catLinks-head">
+                    <ul class="d-flex">
+                        <li class="cat-item">
+                            <a href="/pages/product-listing/products-cat-racing.html"
+                                class="cat-link in-block">FPV-RACING</a>
+                        </li>
+                        <li class="cat-item">
+                            <a href="#" class="cat-link in-block">FILM-MAKING</a>
+                        </li>
+                        <li class="cat-item">
+                            <a href="#" class="cat-link in-block">ACCESSORIES</a>
+                        </li>
+                    </ul>
+                </nav>
 
-        <h3 class="comp-h3">Icon buttons</h3>
-        <div class="btn-display-wrapper comp-display">
-                <button class="btn btn-primary btn-icon">
-                    <i class="fas fa-shopping-cart"></i>
-                    Add to Cart
-                </button>
-                <button class="btn btn-outline btn-icon">
-                    <i class="fas fa-trash"></i>
-                    Remove
-                </button>
-        </div>
+                <label for="nav-toggle" class="nav-toggle-label">
+                    <span></span>
+                  </label>
 
-        <!-- code-display -->
-        <div class="code-wrapper">
-            <pre>
-                <code class="code language-html">
-                    <button class="btn btn-primary btn-icon">
-                        <i class="fas fa-shopping-cart"></i>
-                        Add to Cart
-                    </button>
-                    <button class="btn btn-outline btn-icon">
-                        <i class="fas fa-trash"></i>
-                        Remove
-                    </button>
-                </code>
-            </pre>
-        </div>
-        <!-- code-display-end -->
+                <div class="search-bar">
+                    <input type="text" class="search-input" placeholder="Search" aria-label="search">
+                    <button class="submit-btn"><span class="search-icon material-icons material-icons-outlined search-submit">
+                    search</span></button>
+                </div>
 
-        <h3 class="comp-h3">Hover gradient effect button</h3>
-        <div class="btn-display-wrapper comp-display">
-            <button class="btn btn-grad">
-                <span class="material-icons material-icons-outlined">
-                favorite_border</span>
-                WISHLIST
-            </button>
-        </div>
-
-         <!-- code-display -->
-         <div class="code-wrapper">
-            <pre>
-                <code class="code language-html">
-                    <button class="btn btn-grad">
-                        <span class="material-icons material-icons-outlined">
-                        favorite_border</span>
-                        WISHLIST
-                    </button>
-                </code>
-            </pre>
-        </div>
-        <!-- code-display-end -->
-
-        <h3 class="comp-h3">Link button</h3>
-        <div class="btn-display-wrapper comp-display">
-            <a href="#" class="link-cta">
-                <span class="cta-text">Learn More</span>
-                <span class=" next-icon material-icons material-icons-outlined">
-                navigate_next</span>
-            </a>
-        </div>
-
-         <!-- code-display -->
-         <div class="code-wrapper">
-            <pre>
-                <code class="code language-html">
-                    <a href="#" class="link-cta">
-                        <span class="cta-text">Learn More</span>
-                        <span class=" next-icon material-icons material-icons-outlined">
-                        navigate_next</span>
+                <div class="actions-head flex-vCenter">
+                    <a class="user flex-col flex-vCenter">
+                        <span class="material-icons material-icons-outlined"> person_outline</span>
+                        <span class="actions-title">Profile</span>
                     </a>
+                    <a href="#" class="wishlist flex-col flex-vCenter">
+                        <span class="material-icons material-icons-outlined">
+                            favorite_border</span>
+                        <span class="actions-title">Wishlist</span>
+                    </a>
+                    <a href="#" class="bag flex-col flex-vCenter">
+                        <span class="material-icons material-icons-outlined"> shopping_bag</span>
+                        <span class="actions-title">Bag</span>
+                    </a>
+                </div>
+            </header>
+            <!-- header-ends -->
+        </div>
+
+        <!-- code-display -->
+        <div class="code-wrapper">
+            <pre>
+                <code class="code language-html">
+                    <header class="header ">
+                        <div class="logo-head-comp flex-vCenter">
+                            <a href="#"><img class="logo-img-comp"
+                                    src="../../../assets/phoenix-logo-3-removebg-preview.png" alt="logo"></a>
+                            <a href="#" class="logo-name-comp">LOGO</a>
+                        </div>
+                        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        
+                        <nav class="catLinks-head">
+                            <ul class="d-flex">
+                                <li class="cat-item">
+                                    <a href="/pages/product-listing/products-cat-racing.html"
+                                        class="cat-link in-block">FPV-RACING</a>
+                                </li>
+                                <li class="cat-item">
+                                    <a href="#" class="cat-link in-block">FILM-MAKING</a>
+                                </li>
+                                <li class="cat-item">
+                                    <a href="#" class="cat-link in-block">ACCESSORIES</a>
+                                </li>
+                            </ul>
+                        </nav>
+        
+                        <label for="nav-toggle" class="nav-toggle-label">
+                            <span></span>
+                          </label>
+        
+                        <div class="search-bar">
+                            <input type="text" class="search-input" placeholder="Search" aria-label="search">
+                            <button class="submit-btn"><span class="search-icon material-icons material-icons-outlined search-submit">
+                            search</span></button>
+                        </div>
+        
+                        <div class="actions-head flex-vCenter">
+                            <a class="user flex-col flex-vCenter">
+                                <span class="material-icons material-icons-outlined"> person_outline</span>
+                                <span class="actions-title">Profile</span>
+                            </a>
+                            <a href="#" class="wishlist flex-col flex-vCenter">
+                                <span class="material-icons material-icons-outlined">
+                                    favorite_border</span>
+                                <span class="actions-title">Wishlist</span>
+                            </a>
+                            <a href="#" class="bag flex-col flex-vCenter">
+                                <span class="material-icons material-icons-outlined"> shopping_bag</span>
+                                <span class="actions-title">Bag</span>
+                            </a>
+                        </div>
+                    </header>
                 </code>
             </pre>
         </div>
         <!-- code-display-end -->
+
+        
     </main>
 
     <script src="../../highlight-custom.js"></script>
