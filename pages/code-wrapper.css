@@ -3,12 +3,23 @@
     border: 2px solid var(--sky-blue);
     border-radius: 1rem;
     margin-bottom: 3rem;
-   
+    max-width: 100%;
+    height: auto;
+}
+
+.code{
+    overflow-y: scroll;
 }
 
 .code-wrapper .hljs{
     background-color: transparent;
     overflow-x: auto;
+    overflow-y: scroll;
+    width: 90%;
+    background: var(--pink8);
+    margin:2rem auto 2rem;
+    height: auto;
+    max-height: 25rem;
 }
 
 .code-wrapper pre{
