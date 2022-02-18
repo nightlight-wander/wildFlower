@@ -45,7 +45,7 @@ a .prod-img-bottom-extra {
 
 .prod-img {
     position: relative;
-    margin: 0rem auto;
+    margin: 0 auto;
 }
 
 .prod-img img {
@@ -96,11 +96,11 @@ a .prod-img-bottom-extra {
 
 .like .icon {
     font-size: 2rem;
-    color: var(--gold1);
+    color: var(--dullgold);
 }
 
 .like .icon:hover {
-    color: var(--dark-red);
+    color: var(--dark-red3);
 }
 
 a {
