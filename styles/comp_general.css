@@ -81,11 +81,9 @@
     display: flex;
     flex-wrap: wrap;
     border-radius:1.5rem ;
-    /* border: 2px solid var(--blue-up-border); */
     box-shadow: inset 20px 20px 60px #3043c0,
             inset -20px -20px 60px #425bff;
     padding: 0.2rem;
-    /* background-color:var(--blue-purple); */
     margin-bottom: 2rem;
 }
 
