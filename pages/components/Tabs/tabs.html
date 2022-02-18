@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avatar-Badge</title>
+    <link rel="stylesheet" href="../comp-imports.css">
+    <link rel="stylesheet" href="tabs.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <script src="https://kit.fontawesome.com/00e65d596a.js" crossorigin="anonymous"></script>
+
+    <!-- highlight.js imports -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+    <link rel="stylesheet" href="../../../dracula.css">
+
+
+</head>
+
+<body>
+    <div class="logo-head docs-head">
+        <a href="/index.html"><img class="logo-header" src="../../../assets/phoenix-logo-3-removebg-preview.png" alt="logo"></a>
+        <a href="/index.html">
+            <h1 class="lib-name">wildFlower</h1>
+        </a>
+    </div>
+    <nav class="library-nav">
+        <h1 class="nav-h1">Getting Started</h1>
+        <div class="usage comp-link"><a href="/pages/docs.html">Usage</a></div>
+        <h1 class="nav-h1">Components</h1>
+        <ul class="components-box">
+            <li class="comp-link"><a href="/pages/components/Avatar-badge/avatar-badge.html">Avatar-Badge</a></li>
+            <li class="comp-link"><a href="/pages/components/Alert/alert.html">Alert</a></li>
+            <li class="comp-link"><a href="/pages/components/Button/button.html">Button</a></li>
+            <li class="comp-link"><a href="/pages/components/Cards/cards.html">Cards</a></li>
+            <li class="comp-link"><a href="/pages/components/Image-input/image-input.html">Image-Input</a></li>
+            <li class="comp-link"><a href="/pages/components/Chips/chips.html">Chips</a></li>
+            <li class="comp-link"><a href="/pages/components/Tabs/tabs.html">Tabs</a></li>
+            <li class="comp-link"><a href="/pages/components/Modal/modal.html">Modal</a></li>
+        </ul>
+    </nav>
+
+    <main class="button-wrapper comp-box">
+        <h1 class="comp-h1">Tabs</h1>
+
+         <!-- code-display -->
+        <div class="code-wrapper">
+            <pre>
+               <code class="code language-html">
+               @import url("https://wildFlower.netlify.app/pages/components/Tabs/tabs.css");
+               <link rel="stylesheet" 
+               href="https://wildFlower.netlify.app/pages/components/Tabs/tabs.css">
+               </code>
+            </pre>
+        </div>
+
+        <!-- code-display-end -->
+
+        <p class="comp-p-large">Tabs allow navigation between groups of content that are related and at the same level of hierarchy.</p>
+        <h2 class="comp-h2">Examples</h2>
+
+        <h3 class="comp-h3">Basic Tabs with content</h3>
+        <div class="tabs-display-wrapper comp-display">
+            <ul class="tabs">
+                <li data-tab-target="#tab1" class="active tab">Tab1</li>
+                <li data-tab-target="#tab2" class="tab">Tab2</li>
+                <li data-tab-target="#tab3" class="tab">Tab3</li>
+            </ul>
+            <div class="tab-content">
+                <div id="tab1" data-tab-content class="active">
+                    <h1 class="tab-h1">Tab1</h1>
+                    <p>Tab1 content Tab1 content Tab1 content Tab1 content</p>
+                </div>
+                <div id="tab2" data-tab-content>
+                    <h1 class="tab-h1">Tab2</h1>
+                    <p>Tab2 content Tab2 content Tab2 content Tab2 content</p>
+                </div>
+                <div id="tab3" data-tab-content>
+                    <h1 class="tab-h1">Tab3</h1>
+                    <p>Tab3 content Tab3 content Tab3 content Tab3 content</p>
+                </div>
+            </div> 
+        </div>
+
+        <!-- code-display -->
+        <div class="code-wrapper">
+            <pre>
+                <code class="code language-html">
+                    <div class="tabs-display-wrapper comp-display">
+                        <ul class="tabs">
+                            <li data-tab-target="#tab1" class="active tab">Tab1</li>
+                            <li data-tab-target="#tab2" class="tab">Tab2</li>
+                            <li data-tab-target="#tab3" class="tab">Tab3</li>
+                        </ul>
+                        <div class="tab-content">
+                            <div id="tab1" data-tab-content class="active">
+                                <h1 class="tab-h1">Tab1</h1>
+                                <p>Tab1 content Tab1 content Tab1 content Tab1 content</p>
+                            </div>
+                            <div id="tab2" data-tab-content>
+                                <h1 class="tab-h1">Tab2</h1>
+                                <p>Tab2 content Tab2 content Tab2 content Tab2 content</p>
+                            </div>
+                            <div id="tab3" data-tab-content>
+                                <h1 class="tab-h1">Tab3</h1>
+                                <p>Tab3 content Tab3 content Tab3 content Tab3 content</p>
+                            </div>
+                        </div> 
+                    </div>
+                </code>
+            </pre>
+        </div>
+        <!-- code-display-end -->
+
+        
+    </main>
+
+    <script src="tabs.js"></script>
+    <script src="../../highlight-custom.js"></script>
+</body>
+
+</html>
