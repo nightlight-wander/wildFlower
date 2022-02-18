@@ -9,3 +9,10 @@ body{
     background-color: var(--blue-purple);
     box-sizing: border-box;
 }
+
+button{
+    border: none;
+    background: none;
+    padding: none;
+    outline: none;
+}
