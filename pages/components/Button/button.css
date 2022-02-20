@@ -28,9 +28,6 @@
     border-radius: 1rem;
 }
 
-.btn:hover{
-    box-shadow:0.1rem 0.1rem 0.1rem var(--gold1),-0.1rem -0.1rem 0.2rem var(--gold1);
-}
 
 .btn-grad{
     width: 8em;
@@ -86,7 +83,6 @@
 
 .link-cta{
     display: inline-block;
-    /* text-align: center; */
     width: 14rem;
     border: 2px solid var(--white);
     border-radius: 0.5rem;
