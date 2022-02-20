@@ -12,11 +12,42 @@ a{
     align-items: center;
     margin-right: auto;
     background-color: var(--blue-purple-up);
+    right: 0;
+    left: 0;
     
 }
 
 .logo-head a{
     color:var(--white);
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-hCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-vCenter {
+    display: flex;
+    align-items: center;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.in-block {
+    display: inline-block;
 }
 
 

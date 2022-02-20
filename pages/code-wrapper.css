@@ -3,7 +3,12 @@
     border: 2px solid var(--sky-blue);
     border-radius: 1rem;
     margin-bottom: 3rem;
-   
+    max-width: 100%;
+    height: auto;
+}
+
+.code{
+    overflow-y: scroll;
 }
 
 .code-wrapper .hljs{

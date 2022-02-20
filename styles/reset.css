@@ -15,4 +15,6 @@ button{
     background: none;
     padding: none;
     outline: none;
+    font-size: inherit;
+    cursor: pointer;
 }
