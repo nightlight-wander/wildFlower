@@ -27,7 +27,7 @@ a.link-text{
 }
 
 alert{
-    border: 2px solid var(--blue-up-border);
+    border: 2px solid var(--white);
 
 }
 
@@ -48,5 +48,5 @@ alert[variant="warning"]{
 }
 
 alert[variant="danger"]{
-    color: var(--dark-red);
+    color: var(--dark-red1);
 }
