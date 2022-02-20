@@ -1,0 +1,26 @@
+
+.toast-display-wrapper{
+    padding: 2rem;
+    border: 1px solid var(--white);
+}
+
+.toast{
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--shine-green);
+    flex-basis: 26rem;
+    border-radius: 1rem;
+    background-color: var(--shine-green);
+    color: var(--pink8);
+}
+
+.toast-messages{
+    display: flex;
+    flex-direction: column;
+}
+
+.right-toast{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
