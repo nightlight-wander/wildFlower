@@ -192,7 +192,10 @@ header>* {
     }
 
     .search-bar:focus-within {
-        width: 96%;
+        width: 85%;
+    }
+    .search-bar:focus-within ~.nav-toggle-label span{
+        display: none;
     }
     header {
         display: grid;
@@ -200,7 +203,7 @@ header>* {
         width: 100%;
     }
 
-    .nav-toggle {
+    .nav-toggle  {
         position: absolute !important;
         top: 50% !important;
         /* left: -9999px !important; */
